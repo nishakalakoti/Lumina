@@ -25,7 +25,12 @@
     background-color: transparent !important;
     border: 1px solid $secondary !important;
   }
-
+}
+.light-hover {
+  &:hover {
+    background-color: $primary !important;
+    border: 1px solid $secondary !important;
+  }
   
 }
 
