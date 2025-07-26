@@ -1,0 +1,29 @@
+.bg-2-about-sec-two{
+    left: 10%;
+}
+.rectangel-about-sec-two{
+    left: 32%;
+    padding-top: 80%;
+}
+.dout-about-sec-two{
+    left: 32%;
+    padding-top: 5%;
+}
+@media (max-width: 400px) { 
+    .bg-2-about-sec-two{
+    left: 5%;
+}
+}
+@media (max-width: 575.98px) { 
+    .bg-2-about-sec-two{
+    left: 5%;
+    .secdond-row-2{
+        overflow: hidden !important;
+    }
+}
+@media (max-width: 380px) { 
+    .secdond-row-2{
+       display: block !important;
+    }
+}
+}

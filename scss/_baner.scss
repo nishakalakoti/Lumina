@@ -1,0 +1,90 @@
+
+//  [ index css ]
+
+.lineone-img{
+    max-width: 80%;
+    height: auto;
+}
+.banner-right{
+    max-width: 34.375vw;
+    min-width: 200px;
+    max-height: auto;
+}
+.banner-Rectangle{
+  left: 60%;
+  top: 8%;
+  max-width: 34.375vw;
+ 
+}
+.banner-doute{
+    top: 5%;
+     
+}
+
+
+
+@media (max-width: 575px) {
+    .banner-doute{
+        left: 0%;
+       width: 120px;
+    }
+    .banner-Rectangle{
+        right: 20%;
+    }
+    .banner-heading{
+        text-align: left;
+        line-height: 45px;
+    }
+    .banner-para{
+        text-align: center;
+        padding: 0 38px;
+    }
+
+}
+@media (min-width: 768px) {
+    .banner-Rectangle{
+          left: 50%;
+          top: 5%;
+    }
+    .banner-doute{
+        left: 10%;
+    }
+}
+@media (min-width: 920px) {
+    .banner-Rectangle{
+          left: 45%;
+          top: 4%;
+    }
+    .banner-doute{
+        left: 15%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .banner-Rectangle{
+          left: 65%;
+          top: 13%;
+    }
+    .banner-doute{
+        left: 50%;
+    }
+}
+@media (min-width: 1400px) {
+    .banner-Rectangle{
+          left: 58%;
+          top: 8% ;
+    }
+    .banner-doute{
+        left: 47%;
+        top: 4%;
+    }
+}
+
+
+
+// [about css ]
+
+.about-doute{
+   bottom: -25%;
+}
+

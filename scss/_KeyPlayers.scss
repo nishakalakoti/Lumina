@@ -1,0 +1,36 @@
+.sec-five-img-bg{
+    padding-top: 25%;
+}
+.sec-five-rokey{
+    right: 5%;
+}
+
+
+@media (max-width: 575.98px) { 
+    .sec-five-rokey{
+    width: 200px;
+     right: 40%;
+}
+}
+@media (min-width: 575px) {
+    .sec-five-rokey{
+    width: 230px;
+     right: 40%;
+}
+}
+@media (min-width: 768px) {
+     .sec-five-rokey{
+     width: 240px;
+}
+}
+@media (max-width: 1200px) {
+    .sec-five-rokey{
+    width: 180px;
+     right: 40%;
+}
+}
+@media (min-width: 1201px) {
+    .sec-five-rokey{
+     right: 18%;
+}
+}

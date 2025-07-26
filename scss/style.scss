@@ -1,0 +1,118 @@
+// color section
+$primary:#0E1947;
+$secondary:#EE4312;
+$success: #100F1B ;
+$info:    #E2DEDC;
+$warning:  #373642;
+$danger : #F5F7FF;
+
+
+// header section
+$font-size-base: 1rem;
+
+$h1-font-size: $font-size-base *4;                         // 64px 
+$h2-font-size: $font-size-base * 2.25;                     // 36px
+$h3-font-size: $font-size-base * 1.875;                    // 30px
+$h4-font-size: $font-size-base * 1.375;                    // 22px
+$h5-font-size: $font-size-base * 1.125;                    // 18px
+$h6-font-size: $font-size-base * 0.875;                    // 14px
+
+// heading-color
+$headings-color:            $success;
+
+// heading-font
+$headings-font-family:   "Mona Sans", sans-serif;     
+
+
+// gap padding margin 
+$spacer: 10px;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.8,     // 8px
+  2: $spacer * 1.4,     // 14px
+  3: $spacer * 1.6,     // 16px
+  4: $spacer * 2.0,     // 18px,20px  = 20px
+  5: $spacer * 2.5,     // 24px,25px  = 25px
+  6: $spacer * 3.2,     // 32px
+  7: $spacer * 4,       // 40px
+  8: $spacer * 3.8,     // 48px 52px
+  9: $spacer * 6,       // 59px 60px = 60px
+  10: $spacer * 6.7,    // 67px
+  11: $spacer * 12,      // 80px
+  12: $spacer * 10,      // 100px
+);
+
+
+$custom-container-max-widths: (
+  xl: 1000px,
+  xxl: 1167px
+);
+
+// link basic
+
+$body-bg:  $danger ;
+
+
+
+
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+
+
+
+$grid-breakpoints: map-merge($grid-breakpoints, (
+  xxxl: 1440px
+));
+$container-max-widths: map-merge($container-max-widths, (
+  xxxl: 1200px
+));
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './nav';
+@import './baner';
+@import './footer';
+@import './story';
+@import './Benefits';
+@import './Collaborate';
+@import './Introduce';
+@import './KeyPlayers';
+@import './Clients';
+@import './aboutbanner';
+@import'./aboutJourney';
+@import'./artical';
+
+// about page
+
+@import'./Success';
+
+p{
+  color: $warning;
+  font-size: $h5-font-size;
+  line-height: 30px;
+}
+h1{
+  line-height: 74px;
+  color: white;
+  font-weight: 700;
+}
+h2{
+  line-height: 44px;
+  color: $success;
+  font-weight: 700;
+}
+h6{
+  color: #9CA2A5 !important;
+}
+
+a{
+ text-decoration: none;
+ color: white;
+}
+.button-primary{
+  background-color: $secondary;
+  padding: 14px 20px ;
+}
+

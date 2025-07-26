@@ -1,0 +1,36 @@
+.sec-7-rectangle {
+    left: 100%;
+}
+.sec-7-qube{
+    right: 0;
+    padding-top: 25px;
+}
+.sec-7-dout-upper{
+    right: 10%;
+    padding-top: 20px;
+}
+.sec-7-sm--lower{
+    left: -10%;
+    padding-top: 58%;
+}
+.sec-7-sm--lower2{
+    right: 8%;
+    padding-top: 58%;
+
+}
+
+@media (max-width: 575.98px) { 
+   .sec-7-rectangle {
+   max-width: 80px;
+}
+
+.sec-7-sm--lower{
+    max-width: 100px;
+}
+.sec-7-sm--lower2{
+     max-width: 170px;
+}
+
+}
+
+

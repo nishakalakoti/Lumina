@@ -1,0 +1,26 @@
+.sec-three-bg-one{
+    left : -5%
+}
+.sec-three-bg-two{
+  right: 0;
+  padding-top: 200px;
+ 
+}
+.sec-three-bg-three{
+        left: 10%;
+       padding-top: 30px;
+      
+}
+@media (max-width: 575.98px) { 
+    .sec-three-bg-two{
+  max-height: 400px;
+
+}
+ }
+@media (max-width: 400px) { 
+    .sec-three-bg-two{
+ padding-top: 80px;
+ width: 40px;
+
+}
+ }

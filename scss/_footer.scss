@@ -1,0 +1,16 @@
+.fotter-heading{
+    line-height: 48px;
+}
+.fotter-li-2 li a{
+    color: $info
+}
+.fotter-text{
+  color: #9CA2A5 !important;
+}
+@media (max-width: 575.98px) { 
+    .fotter-icons{
+        display: none;
+    }
+
+ }
+
